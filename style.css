@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+body {
+    background: linear-gradient(to right, rgb(1, 59, 44), rgb(89, 151, 19));
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: max-content;
+    box-shadow: 0px 0px 100px 2px rgb(1, 48, 1);
+    border-radius: 1rem;
+    background: linear-gradient(to right, rgb(1, 99, 73), rgb(89, 151, 19));
+}
+
+.search-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 1.5rem 1rem;
+}
+
+.search-container input {
+    color: #1f1e1e;
+    background: hsl(133, 84%, 57%);
+    outline: none;
+    border: none;
+    flex: 1;
+    padding: 10px 24px;
+    border-radius: 1rem;
+    font-size: 18px;
+}
+
+.search-container button {
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    width: 60px;
+    aspect-ratio: 1;
+    background: hsl(133, 84%, 57%);
+    cursor: pointer;
+}
+
+.search-container button img {
+    object-fit: contain;
+    object-position: center;
+    width: 30px;
+
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
